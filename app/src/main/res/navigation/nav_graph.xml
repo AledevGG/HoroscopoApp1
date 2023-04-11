@@ -7,19 +7,18 @@
 
 
     <fragment
-        android:id="@+id/listFragment"
-        android:name="com.master.Horoscopoapp.ui.list.ListFragment"
+        android:id="@+id/CompatobilityFragment"
+        android:name="com.master.horoscopoapp.ui.compatibility.CompatibilityFragment"
         android:label="fragment_compatibility"
         tools:layout="@layout/fragment_compatibility" />
     <fragment
-        android:id="@+id/informationsFragment"
-        android:name="com.master.Horoscopoapp.ui.informations.InformationsFragment"
+        android:id="@+id/InformationFragment"
+        android:name="com.master.horoscopoapp.ui.informations.InformationsFragment"
         android:label="fragment_informations"
         tools:layout="@layout/fragment_informations" />
     <fragment
-        android:id="@+id/CompatobilityFragment"
-        android:name="com.master.Horoscopoapp.ui.compatibility.CompatibilityFragment"
-        android:label="fragment_compatibility"
-        tools:layout="@layout/fragment_compatibility" />
-
+        android:id="@+id/listFragment"
+        android:name="com.master.horoscopoapp.ui.list.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" />
 </navigation>
